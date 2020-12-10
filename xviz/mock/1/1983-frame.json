@@ -1,0 +1,28 @@
+{
+  "update_type": "SNAPSHOT",
+  "updates": [
+    {
+      "timestamp": 396667,
+      "poses": {
+        "/vehicle_pose": {
+          "timestamp": 396667,
+          "map_origin": {
+            "longitude": 13.3377456,
+            "latitude": 52.513793,
+            "altitude": 0
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "orientation": [
+            0,
+            0,
+            173.37917000000004
+          ]
+        }
+      }
+    }
+  ]
+}

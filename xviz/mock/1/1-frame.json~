@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "streams": {
+    "/vehicle_pose": {
+      "category": "POSE"
+    },
+    "/object/tracking_point": {
+      "category": "PRIMITIVE",
+      "coordinate": "VEHICLE_RELATIVE",
+      "stream_style": {
+        "fill_color": "#fb0"
+      },
+      "primitive_type": "CIRCLE"
+    },
+    "/object/shape": {
+      "category": "PRIMITIVE",
+      "coordinate": "VEHICLE_RELATIVE",
+      "stream_style": {
+        "fill_color": "#fb0",
+        "height": 1.5,
+        "extruded": true
+      },
+      "primitive_type": "POLYGON"
+    }
+  },
+  "log_info": {
+    "start_time": 1000,
+    "end_time": 1005
+  }
+}
